@@ -45,7 +45,7 @@ const LandingPage = () => {
   const value = brancheId || locationId; // Use the available value
   
   const { refetch: refetchProducts, loading: loadingProducts, data: dataProducts } = useGet({
-    url: `https://mostafagadbcknd.food2go.online/customer/home/web_products?${key}=${value}`,
+    url: `https://hotrestaurantsbcknd.food2go.online/customer/home/web_products?${key}=${value}`,
   });
  
  useEffect(() => {
