@@ -62,7 +62,7 @@ const Footer = () => {
         {["Home", "Menu", "Contact Us"].map((page, index) => (  
           <li key={index}>
             <NavLink
-              to={page === "Menu" ? "sultanayub_menu" : page.toLowerCase().replace(" ", "_")}
+              to={page === "Menu" ? "hotrestaurants_menu" : page.toLowerCase().replace(" ", "_")}
               className={({ isActive }) =>
                 `text-white hover:text-gray-300 transition duration-300 
                 ${isActive ? "text-white font-semibold underline" : ""}`

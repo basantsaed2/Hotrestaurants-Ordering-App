@@ -131,7 +131,7 @@ const Navbar = () => {
                     >
                         <div className='w-full flex flex-col'>
                             <Link
-                                to={'sultanayub_menu'}
+                                to={'hotrestaurants_menu'}
                                 className='w-full text-xl font-TextFontMedium text-mainColor border-b-2 p-3 pb-1'
                                 onClick={() => setToggleOpen(false)}
                             >

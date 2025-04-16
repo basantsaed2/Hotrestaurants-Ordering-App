@@ -101,7 +101,7 @@ export const router = createBrowserRouter(
           element: <MenuPage />,
         },
         {
-          path: 'sultanayub_menu',
+          path: 'hotrestaurants_menu',
           element: <NewMenuPage />,
         },
         {
